@@ -1,3 +1,4 @@
+//componente card che conterra i nostri pokemon
 import './card.css';
 
 const Card = ({ image, title, description }) => {
