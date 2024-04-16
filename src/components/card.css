@@ -1,0 +1,51 @@
+.card {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #ccc;
+  }
+  
+.content {
+    padding: 20px;
+    height: 25%;
+}
+.content h2 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+  
+  
+.div_container{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.div_container div {
+  font-size: 2em;
+  padding: 3px;
+  border: 2px solid ; /* Colore del bordo */
+  cursor: pointer;
+  border-radius: 5px; /* Angoli arrotondati */
+}
+  
+.grass_color{
+  background-color: rgba(62, 190, 62, 0.116);
+  border-color: rgba(62, 190, 62, 0.116);
+}
+.fire_color{
+  background-color: rgba(231, 3, 3, 0.116);
+  border-color: rgba(231, 3, 3, 0.116);
+}

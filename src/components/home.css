@@ -1,0 +1,53 @@
+/* main.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    position: relative;
+    background-image: url(../../public/sfondo2.jpg);
+    background-size: cover; /* Copre l'intero contenitore con l'immagine di sfondo */
+    background-repeat: no-repeat; /* Impedisce la ripetizione dell'immagine */
+    background-position:center; /* Centra l'immagine di sfondo */
+    color: #fff; /* Colore del testo */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;/* Allinea i figli in modo che si estendano verticalmente */
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Allinea il contenuto al centro verticalmente */
+    align-items: center; /* Allinea il contenuto al centro orizzontalmente */
+    padding: 20px; /* Aggiunge spaziatura interna */
+}
+
+h1, p {
+    background-color: rgba(242, 237, 237, 0.844); /* Sfondo semitrasparente grigio */
+    padding: 10px 20px; /* Aggiunge spaziatura interna */
+    border-radius: 10px; /* Bordo arrotondato */
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    background-color: #ffc107; /* Colore del pulsante */
+    color: #333; /* Colore del testo del pulsante */
+    border: none; /* Rimuove il bordo */
+    padding: 10px 20px; /* Aggiunge spaziatura interna */
+    border-radius: 5px; /* Bordo arrotondato */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    transition: background-color 0.3s ease; /* Transizione fluida */
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #ffca28; /* Cambia il colore del pulsante al passaggio del mouse */
+}

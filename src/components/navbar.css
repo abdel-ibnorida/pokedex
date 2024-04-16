@@ -1,0 +1,69 @@
+/* navbar.css */
+
+/* Navbar container */
+nav {
+  position: fixed; /* Imposta la posizione fissa, che mantiene il navbar in cima allo schermo */
+  top: 0; /* Imposta il margine superiore del navbar a 0, in modo che sia attaccato all'alto dello schermo */
+  width: 100%; /* Imposta la larghezza del navbar al 100% della larghezza dello schermo */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Logo */
+.logo {
+  width: 10em;
+  /* Imposta una larghezza fissa per il logo in em */
+}
+
+.logo img {
+  width: 100%;
+  /* Fai sì che l'immagine riempia completamente il contenitore del logo, evitando il ridimensionamento distorto */
+}
+
+/* Links del menu */
+ul {
+  width: 20em;
+  /* Imposta una larghezza fissa per la lista in em */
+  list-style-type: none;
+  /* Rimuove i punti elenco predefiniti dalla lista */
+  margin: 0;
+  /* Rimuove i margini predefiniti della lista */
+  padding: 0;
+  /* Rimuove il padding predefinito della lista */
+  display: flex;
+  /* Imposta il layout della lista come flexbox */
+  justify-content: space-between;
+  /* Spazia uniformemente i link all'interno della lista */
+}
+
+li {
+  margin-right: 20px;
+  /* Aggiunge uno spazio di 20 pixel a destra di ciascun elemento della lista, tranne l'ultimo */
+}
+
+a {
+  color: #fff;
+  /* Imposta il colore del testo dei link a bianco */
+  text-decoration: none;
+  /* Rimuove la sottolineatura predefinita dei link */
+  transition: color 0.3s ease;
+  /* Aggiunge una transizione fluida al cambio di colore dei link */
+  font-size: 1.2em;
+  /* Imposta la dimensione del testo per i link a 1.2em (relativo alla dimensione del carattere del padre) */
+}
+
+a:hover {
+  color: #ffc107;
+  /* Cambia il colore del testo dei link in giallo al passaggio del mouse */
+}
+
+/* Stile per il link attivo */
+a.active {
+  font-weight: bold;
+  /* Rende il testo del link attivo in grassetto */
+}
