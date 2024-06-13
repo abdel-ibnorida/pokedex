@@ -1,4 +1,4 @@
-**Pokedex Web App** 
+**Pokedex Web App**  
 Questa web app permette agli utenti di esplorare e scoprire informazioni dettagliate sui Pokémon. Gli utenti possono navigare attraverso l'elenco dei Pokémon disponibili, il tipo e le immagini dei Pokémon.
 
 **Funzionalità Principali**  
